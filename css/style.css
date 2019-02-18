@@ -93,7 +93,7 @@ p {
             CONTENT (generic)
 *******************************/
 .content-box {
-    padding: 60px 0 60px 0;
+    padding: 60px 60px 60px 60px;
 }
 
 .content-title h3 {
@@ -121,7 +121,7 @@ p {
 
 #about-content-box {
     float: left;
-    height: 500px;
+    height: 600px;
 
 }
 
