@@ -27,11 +27,13 @@ body {
 }
 
 
-h3 , h1 {
-    color:#74BDCB;
+h3,
+h1 {
+    color: #74BDCB;
     text-transform: uppercase;
-    
+
 }
+
 h4 {
     font-size: 18px;
     line-height: 1.55;
@@ -40,7 +42,7 @@ h4 {
 }
 
 p {
-    color: #000000 ;
+    color: #000000;
     font-weight: 300;
     font-size: 16px;
 }
@@ -50,10 +52,10 @@ p {
         PARALLAX (generic)
 *******************************/
 .bg-parallax {
-   background-repeat: no-repeat;
-   background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-attachment: fixed ;
+    background-attachment: fixed;
 }
 
 /*****************************
@@ -67,6 +69,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+
 }
 
 
@@ -83,9 +86,12 @@ p {
 
 .owl-theme .owl-dots .owl-dot span {
     background: #FFA384;
- }
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #FFA384; }
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #FFA384;
+}
 
 
 
@@ -100,7 +106,7 @@ p {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    margin: 0 0 30 0;
+    margin: 0 0 30px 0;
 }
 
 .content-title-underline {
@@ -121,6 +127,11 @@ p {
 
 #about-content-box {
     float: left;
+    height: 800px;
+
+}
+
+.img-wrapper img {
     height: 600px;
 
 }
@@ -149,11 +160,12 @@ p {
     margin-bottom: 30px;
 }
 
-#about-image {  
-    height: 100%;
+#about-image {
+    height: 600px;
     background-image: url(../img/bg-about.jpg);
     background-attachment: scroll;
-    margin: 30px 0 30px 0;
+    margin: 100px 0 30px 0;
+    border-radius: 10px;
 
 }
 
@@ -170,12 +182,21 @@ p {
     opacity: 0.8;
 }
 
-.about-me-contact-desc a{
+.about-me-contact-desc a {
     color: #74BDCB;
-    padding-right: 50px;
+    padding-right: 35px;
     font-size: 1.5em
+}
+
+.about-btn {
+    text-align: center;
 
 }
+
+.about-btn>a {
+    display: inline-block;
+}
+
 /*****************************
             SKILLS
 *******************************/
@@ -183,7 +204,8 @@ p {
     padding: 20px 0 20px 0;
     margin-bottom: 20px;
     cursor: pointer;
-    float: center;
+
+    text-align: center;
 }
 
 .skills-item-icon i {
@@ -209,8 +231,8 @@ p {
 
 .skills-item-desc p {
     margin: 0;
-    float: left;
-    padding-left: 85px;
+
+
 }
 
 
@@ -218,9 +240,10 @@ p {
 /*****************************
             EDUCATION
 *******************************/
-.education-item{
-    margin-top: 55px; 
+.education-item {
+    margin-top: 55px;
 }
+
 .education-item-icon i {
     color: #FFA384;
     float: left;
@@ -228,7 +251,7 @@ p {
     margin-right: 25px;
     width: 75px;
     height: 75px;
-    
+
 }
 
 .education-item:hover .education-item-icon i {
@@ -257,6 +280,7 @@ p {
     font-style: italic;
     opacity: 0.8;
 }
+
 /*****************************
             EXPERIENCE
 *******************************/
@@ -266,26 +290,29 @@ p {
     margin-right: 10px;
 
 }
-.experience-item-title h5{
+
+.experience-item-title h5 {
     font-style: italic;
 }
+
 .experience-item-info {
     padding: 2px 0;
     opacity: 0.8;
     margin: 0;
 }
-.experience-item-title-desc{
+
+.experience-item-title-desc {
     font-style: italic;
     opacity: 0.8;
 }
 
-.experience-item-icon{
+.experience-item-icon {
     width: 200px;
     float: left;
     opacity: 0.7;
 }
 
-.experience-title-underline{
+.experience-title-underline {
     height: 1px;
     background-color: #FFA384;
     margin: 0 auto 30px auto;
@@ -310,15 +337,22 @@ p {
 }
 
 .img-wrapper img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    -o-transition: transform .5s ease;
     transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
     width: 100%;
     height: 400px;
 
 }
 
 .img-wrapper img:hover {
-    transform: scale(1.5);
-    cursor: zoom-in;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+        transform: scale(1.5);
+cursor: -webkit-zoom-in;
+cursor: zoom-in;
 }
 
 .portfolio-box .portfolio-name {
@@ -327,62 +361,67 @@ p {
     font-size: 18px;
     line-height: 1.55;
     margin: 25px;
-    color: #000000  ;
+    color: #000000;
 }
 
 .portfolio-box .portfolio-date {
     opacity: 0.8;
 }
+
 /*****************************
             PORTFOLIO MODAL
 *******************************/
 
 
 body.modal-open .header {
-    padding-right: 17px; }
+    padding-right: 17px;
+}
 
 
-    .modal-dialog {
-        width: 900px;
-        max-width: 1500px;
-    }
+.modal-dialog {
+    width: 900px;
+    max-width: 1500px;
+}
 
-    .modal-dialog img{
-        max-width: 860px;
-    }
+.modal-dialog img {
+    max-width: 860px;
+}
 
 
-    .modal-body {
-        
-        padding: 40px 20px 30px; }
-      .modal-body .close {
-        top: 15px;
-        right: 15px; }
-  
-        .modal{
-            display: none;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 1050;
-            outline: 0;   
-        }
+.modal-body {
 
-        .span-title{
-            color: #74BDCB;
-            font-size: 20px;
+    padding: 40px 20px 30px;
+}
+
+.modal-body .close {
+    top: 15px;
+    right: 15px;
+}
+
+.modal {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    outline: 0;
+}
+
+.span-title {
+    color: #74BDCB;
+    font-size: 20px;
     font-weight: 700;
-        }
+}
+
 /*****************************
             FEEDBACK
 *******************************/
 
 #testimonials-cover {
     background-image: url("../img/bg-testimonials.jpg")
-
 }
 
 
