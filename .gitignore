@@ -1,4 +1,4 @@
 # Default
-.idea
-.vscode
-.vs
+/idea
+/.vscode
+/.vs
