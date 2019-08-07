@@ -185,7 +185,7 @@ p {
 .about-me-contact-desc a {
     color: #74BDCB;
     padding-right: 35px;
-    font-size: 1.5em
+
 }
 
 .about-btn {
@@ -319,7 +319,16 @@ p {
 }
 
 
+li i {
+    color: #74BDCB;
+}
 
+.experience-item-desc {
+    list-style-type: none;
+
+    text-indent: -0.7em;
+
+}
 
 
 
