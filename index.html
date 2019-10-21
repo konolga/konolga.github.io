@@ -377,13 +377,22 @@
             <div class="container-fluid">
                 <div class="row no-gutters wow animated fadeIndown" data-wow-duration="1s" data-wow-delay=".5s">
 
+                    <div class="col-md-3">
+                        <a data-toggle="modal" data-target="#portfolio-modal" data-name="weather" title="" href="#"
+                            class="portfolio-box">
+                            <div class="img-wrapper"> <img src="img/work/6.jpg" class="img-responsive"
+                                    alt="portfolio"></div>
+                            <div class="portfolio-name"><span>Weather app (Angular)</span></div>
+                        </a>
+                    </div>
+
 
                         <div class="col-md-3">
                                 <a data-toggle="modal" data-target="#portfolio-modal" data-name="phonebook" title="" href="#"
                                     class="portfolio-box">
                                     <div class="img-wrapper"> <img src="img/work/phonebook/7.jpg" class="img-responsive"
                                             alt="portfolio"></div>
-                                    <div class="portfolio-name"><span>Phonebook app</span></div>
+                                    <div class="portfolio-name"><span>Phonebook app (Angular)</span></div>
                                 </a>
                             </div>
 
@@ -393,7 +402,7 @@
                             class="portfolio-box">
                             <div class="img-wrapper"> <img src="img/work/chat/1.jpg" class="img-responsive"
                                     alt="portfolio"></div>
-                            <div class="portfolio-name"><span>Chat app (MERN)</span></div>
+                            <div class="portfolio-name"><span>Chat app (React)</span></div>
                         </a>
                     </div>
 
@@ -403,14 +412,14 @@
                             class="portfolio-box">
                             <div class="img-wrapper"> <img src="img/work/5.jpg" class="img-responsive" alt="portfolio">
                             </div>
-                            <div class="portfolio-name"><span>Blog app (MERN)</span></div>
+                            <div class="portfolio-name"><span>Blog app (React)</span></div>
                         </a>
                     </div>
 
 
 
 
-                    <div class="col-md-3">
+                   <!--  <div class="col-md-3">
                         <a data-toggle="modal" data-target="#portfolio-modal" data-name="mobile" title="" href="#"
                             class="portfolio-box">
                             <div class="img-wrapper"> <img src="img/work/1.jpg" class="img-responsive" alt="portfolio">
@@ -447,7 +456,7 @@
                             </div>
                             <div class="portfolio-name"><span>Library app (C# and Windows8)</span></div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -460,34 +469,61 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
 
-                    <div class="modal-body" data-name="phonebook">
 
+                <div class="modal-body" data-name="weather">
+                    <div class="modal-title">
+                        <h3><span class="point">Angular app: Weather</span></h3>
+                    </div>
+                    <div class="modal-description">
+                        <p>
+                            <li>Accuweather and Geolocation API  </li>
+                            <li>Local storage </li>
+                            <li>State management</li>
+                            <li>Responsive design</li>
+                            <li>Error handeling with toastr</li>
+                            <li>Animations with Animate.css</li>
+                            <li>Deploy to GitPages</li>
+                        </p>
+                    </div>
+                    <div class="about-me-info">
+                        <p><span class="span-title">Stack: </span><span>Angular</span></p>
+                    </div>
+                <div class="about-btns">
+                        <p><a href="https://konolga.github.io/weatherApp/" class="btn btn-lg btn-general btn-yellow" target="_blank">Visit Website </a></p>
+                        <p><a href="https://github.com/konolga/weatherApp" class="btn btn-lg btn-general btn-yellow" target="_blank">View repository at GitHub</a></p>
+                        <p><a href="#" class="btn btn-lg btn-general btn-yellow" data-dismiss="modal">Back to cv</a></p>
+                </div>
+                <div class="modal-images">
+                    <img src="img/work/weather/2.jpg" alt="Home">
+                    <img src="img/work/weather/1.jpg" alt="Favorites">
+                </div>
+
+            </div>
+
+
+
+                    <div class="modal-body" data-name="phonebook">
                             <div class="modal-title">
                                 <h3><span class="point">MEAN stack app: TelephoneBook</span></h3>
-                            </div>
-        
+                            </div>   
                             <div class="modal-description">
                                 <p>
                                     <li>Frontend web development was done with Angular 8 using Angular material design</li>
                                     <li>Backend development was done using Node, MongoDB </li>
                                     <li> Deploy to Amazon Web Services’ Elastic Beanstalk</li>
                                 </p>
-                            </div>
-        
+                            </div>      
                             <div class="about-me-info">
                                 <p><span class="span-title">Stack: </span><span>MEAN</span></p>
-                            </div>
-        
+                            </div>    
                         <div class="about-btns">
                                 <p><a href="http://telephonebook.us-east-2.elasticbeanstalk.com" class="btn btn-lg btn-general btn-yellow" target="_blank">Visit Website </a></p>
                                 <p><a href="https://github.com/konolga/TelephoneBook" class="btn btn-lg btn-general btn-yellow" target="_blank">View repository at GitHub</a></p>
                                 <p><a href="#" class="btn btn-lg btn-general btn-yellow" data-dismiss="modal">Back to cv</a></p>
-                        </div>
-        
+                        </div>     
                         <div class="modal-images">
                             <img src="img/work/phonebook/screen.gif" alt="General view">
-                        </div>
-        
+                        </div>     
                     </div>
 
 
@@ -566,7 +602,7 @@
         </div>
 
 
-        <div class="modal-body" data-name="mobile">
+<!--         <div class="modal-body" data-name="mobile">
 
             <div class="modal-title">
                 <h3><span class="point">Vanilla Javascript store</span></h3>
@@ -593,13 +629,13 @@
                 <img src="img/work/1.jpg" alt="">
             </div>
 
-       </div>
+       </div> -->
 
 
 
 
 
-            <div class="modal-body" data-name="YAD2">
+<!--             <div class="modal-body" data-name="YAD2">
                 <div class="modal-title">
                     <h3><span class="point">ASP.NET MVC5 Project - Marketplace Store</span></h3>
                 </div>
@@ -652,8 +688,8 @@
 
                 </div>
             </div>
-
-
+ -->
+<!-- 
             <div class="modal-body" data-name="site">
                 <div class="modal-title">
                     <h3><span class="point">Responsive Web Site</span></h3>
@@ -688,11 +724,11 @@
                     <img src="img/work/site/3.jpg" alt="Modern-website">
                     <img src="img/work/site/4.jpg" alt="Modern-website">
                 </div>
-            </div>
+            </div> -->
 
 
 
-            <div class="modal-body" data-name="library">
+<!--             <div class="modal-body" data-name="library">
                 <div class="modal-title">
                     <h3><span class="point">Library desktop app</span></h3>
                 </div>
@@ -746,7 +782,7 @@
                         inherits UserCollection with all methods.</p>
                     <img src="img/work/library/5.jpg" alt="">
                 </div>
-            </div>
+            </div> -->
 
 
         </div>
